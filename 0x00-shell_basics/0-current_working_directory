@@ -1,3 +1,2 @@
 #!/bin/bash
-current_dir = os.getpwd()
-absolute_path = os.path.abspath(current_dir)
+print ./0-current_working_directory
