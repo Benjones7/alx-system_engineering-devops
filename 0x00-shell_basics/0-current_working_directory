@@ -1,8 +1,3 @@
 #!/bin/bash
-import os
-
 current_dir = os.getpwd()
 absolute_path = os.path.abspath(current_dir)
-
-print("Absolute path name of the current working directory:")
-print(absolute_path)
